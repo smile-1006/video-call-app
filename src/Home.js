@@ -6,7 +6,7 @@ function Home() {
   const [roomID, setRoomID] =useState();
   const navigate = useNavigate()
   const handleJoin = ()=>{
-    navigate('/room')
+    navigate(`/room/${roomID}`)
   }
 
   return (
